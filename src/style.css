@@ -18,7 +18,7 @@ body {
   height: 72px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* alterado de space-between para center */
   padding: 0 20px;
   width: 100%;
   box-sizing: border-box;
@@ -32,7 +32,7 @@ body {
 
 .nav-item {
   display: inline-flex;
-  margin: 0 20px;
+  margin: 0 12px;
 }
 
 .nav-list {
